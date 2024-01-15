@@ -1,0 +1,34 @@
+
+# Python environment
+myenv
+
+# Ignore all log files
+*.log
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Django 
+*.sqlite3
+*.pyc
+
+# Ignore node modules
+node_modules/
+node_modules
+
+# Ignore the build directory
+/build
+
+# Ignore temp files
+*.tmp
+
+# dotenv environment variables file
+.env
+
+# Ignore migrations
+backend/django-api-backend/chat/migrations/
+backend/django-api-backend/identity/migrations/
+backend/django-api-backend/project_management/migrations/
+frontend/react-frontend/public/
+
