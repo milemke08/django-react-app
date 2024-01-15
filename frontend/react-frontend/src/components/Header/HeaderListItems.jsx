@@ -29,13 +29,13 @@ export const mainListItems = (
       </ListItemIcon>
       <ListItemText primary="Nodes" />
     </ListItemButton>
-    <ListItemButton>
+    <ListItemButton  component={Link} to="/chats">
       <ListItemIcon>
         <ChatIcon />
       </ListItemIcon>
       <ListItemText primary="Chats" />
     </ListItemButton>
-    <ListItemButton>
+    <ListItemButton  component={Link} to="/documents">
       <ListItemIcon>
         <ReceiptLongIcon />
       </ListItemIcon>
@@ -48,7 +48,7 @@ export const mainListItems = (
       <ListItemText primary="Integrations" />
     </ListItemButton>
 
-    <ListItemButton>
+    <ListItemButton  component={Link} to="/account">
       <ListItemIcon>
         <AccountCircleIcon />
       </ListItemIcon>
